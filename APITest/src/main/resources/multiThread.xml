@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="threadOnXML" parallel="methods" thread-count="2">
+    <test name="threadOnxml">
+        <classes>
+            <class name="com.testcy.testng.multiThread.MultiThreadOnXml"></class>
+        </classes>
+    </test>
+</suite>
