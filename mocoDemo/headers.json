@@ -1,0 +1,30 @@
+[
+  {
+    "description": "这是一个带参数的get请求",
+    "request": {
+      "uri": "/postWithHeaders",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "queries": {
+        "name": "curry",
+        "age": "18"
+      },
+      "json": {
+        "name": "tom",
+        "age": "30"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "status": 201,
+        "sex": "woman"
+      },
+      "headers": {
+        "Content-Type": "application/json;charset=gbk"
+      }
+    }
+  }
+]

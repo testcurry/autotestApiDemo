@@ -1,0 +1,33 @@
+[
+  {
+    "description": "这是一个moco的post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个moco的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+
+  {
+    "description": "这是一个带参数的moco的post请求",
+    "request": {
+      "uri": "/postParam",
+      "method": "post",
+      "queries": {
+        "name": "curry",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "这是一个带参数的moco的post请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

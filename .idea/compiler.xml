@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="extentReport" />
+        <module name="httpClientTest" />
         <module name="APITest" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
       <module name="APITest" target="1.8" />
       <module name="autotestApiDemo" target="1.8" />
       <module name="extentReport" target="1.8" />
+      <module name="httpClientTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

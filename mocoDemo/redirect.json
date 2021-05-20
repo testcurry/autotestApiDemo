@@ -1,0 +1,33 @@
+[
+  {
+    "description": "重定向请求",
+    "request": {
+      "uri": "/redirect",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+
+  {
+    "description": "重定向请求",
+    "request": {
+      "uri": "/redirectToPath",
+      "method": "get"
+    },
+    "redirectTo": "/new"
+  },
+
+  {
+    "description": "重定向请求new",
+    "request": {
+      "uri": "/new",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是我自定义的重定向地址！",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

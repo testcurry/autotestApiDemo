@@ -16,5 +16,6 @@
     <modules>
         <module>APITest</module>
         <module>extentReport</module>
+        <module>httpClientTest</module>
     </modules>
 </project>
