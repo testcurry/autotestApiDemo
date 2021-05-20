@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/autotestApiDemo.iml" filepath="$PROJECT_DIR$/.idea/autotestApiDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/extentReport/extentReport.iml" filepath="$PROJECT_DIR$/extentReport/extentReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpClientTest/httpClientTest.iml" filepath="$PROJECT_DIR$/httpClientTest/httpClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootTest/springbootTest.iml" filepath="$PROJECT_DIR$/springbootTest/springbootTest.iml" />
     </modules>
   </component>
 </project>

@@ -9,6 +9,7 @@
         <module name="extentReport" />
         <module name="httpClientTest" />
         <module name="APITest" />
+        <module name="springbootTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,14 @@
       <module name="autotestApiDemo" target="1.8" />
       <module name="extentReport" target="1.8" />
       <module name="httpClientTest" target="1.8" />
+      <module name="springbootTest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="extentReport" options="-parameters" />
+      <module name="httpClientTest" options="-parameters" />
+      <module name="springbootTest" options="-parameters" />
+    </option>
   </component>
 </project>
