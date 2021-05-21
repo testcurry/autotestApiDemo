@@ -1,4 +1,4 @@
-package com.testcy.controller;
+package com.testcy.utils;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

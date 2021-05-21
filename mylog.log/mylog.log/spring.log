@@ -1,0 +1,13 @@
+2021-05-21 15:33:57.952 [restartedMain] INFO  com.testcy.MainApplication - Starting MainApplication on DESKTOP-JAS8RU1 with PID 6260 (D:\IdeaProjects\autotest\API\autotestApiDemo\MybatisTest\target\classes started by Curry in D:\IdeaProjects\autotest\API\autotestApiDemo)
+2021-05-21 15:33:57.955 [restartedMain] INFO  com.testcy.MainApplication - No active profile set, falling back to default profiles: default
+2021-05-21 15:33:58.050 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-21 15:33:58.050 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-21 15:33:59.548 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-05-21 15:33:59.558 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-21 15:33:59.558 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-05-21 15:33:59.665 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-21 15:33:59.665 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1614 ms
+2021-05-21 15:34:00.151 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 15:34:00.431 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-21 15:34:00.563 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-05-21 15:34:00.577 [restartedMain] INFO  com.testcy.MainApplication - Started MainApplication in 3.805 seconds (JVM running for 5.468)

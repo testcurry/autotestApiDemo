@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,19 +10,25 @@
         <module name="extentReport" />
         <module name="httpClientTest" />
         <module name="APITest" />
+        <module name="MybatisTest" />
         <module name="springbootTest" />
+        <module name="caseManager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="APITest" target="1.8" />
       <module name="autotestApiDemo" target="1.8" />
+      <module name="caseManager" target="1.8" />
       <module name="extentReport" target="1.8" />
       <module name="httpClientTest" target="1.8" />
+      <module name="MybatisTest" target="1.8" />
       <module name="springbootTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MybatisTest" options="-parameters" />
+      <module name="caseManager" options="-parameters" />
       <module name="extentReport" options="-parameters" />
       <module name="httpClientTest" options="-parameters" />
       <module name="springbootTest" options="-parameters" />

@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APITest/APITest.iml" filepath="$PROJECT_DIR$/APITest/APITest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisTest/MybatisTest.iml" filepath="$PROJECT_DIR$/MybatisTest/MybatisTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/autotestApiDemo.iml" filepath="$PROJECT_DIR$/.idea/autotestApiDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caseManager/caseManager.iml" filepath="$PROJECT_DIR$/caseManager/caseManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/extentReport/extentReport.iml" filepath="$PROJECT_DIR$/extentReport/extentReport.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpClientTest/httpClientTest.iml" filepath="$PROJECT_DIR$/httpClientTest/httpClientTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootTest/springbootTest.iml" filepath="$PROJECT_DIR$/springbootTest/springbootTest.iml" />

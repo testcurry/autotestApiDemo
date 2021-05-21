@@ -23,5 +23,7 @@
         <module>extentReport</module>
         <module>httpClientTest</module>
         <module>springbootTest</module>
+        <module>MybatisTest</module>
+        <module>caseManager</module>
     </modules>
 </project>
