@@ -4,11 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.springframework.stereotype.Component;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Component
 public class User {
 
     private Integer id;
@@ -19,16 +21,4 @@ public class User {
     private String permission;
     private String isDelete;
 
- /*   @Override
-    public String toString() {
-        return "{" +
-                "id:" + id +
-                ", userName:'" + userName +
-                ", password:'" + password +
-                ", age:'" + age +
-                ", sex:'" + sex +
-                ", permission:'" + permission +
-                ", isDelete:'" + isDelete +
-                '}';
-    }*/
 }

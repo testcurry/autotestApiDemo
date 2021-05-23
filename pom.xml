@@ -25,5 +25,6 @@
         <module>springbootTest</module>
         <module>MybatisTest</module>
         <module>caseManager</module>
+        <module>UserManagerApi</module>
     </modules>
 </project>

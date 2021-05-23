@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MybatisTest" />
+        <module name="caseManager" />
         <module name="extentReport" />
         <module name="httpClientTest" />
         <module name="APITest" />
-        <module name="MybatisTest" />
         <module name="springbootTest" />
-        <module name="caseManager" />
+        <module name="UserManagerApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,11 +24,13 @@
       <module name="httpClientTest" target="1.8" />
       <module name="MybatisTest" target="1.8" />
       <module name="springbootTest" target="1.8" />
+      <module name="UserManagerApi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MybatisTest" options="-parameters" />
+      <module name="UserManagerApi" options="-parameters" />
       <module name="caseManager" options="-parameters" />
       <module name="extentReport" options="-parameters" />
       <module name="httpClientTest" options="-parameters" />

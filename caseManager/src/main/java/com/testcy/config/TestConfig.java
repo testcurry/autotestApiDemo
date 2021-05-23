@@ -2,7 +2,6 @@ package com.testcy.config;
 
 import org.apache.http.client.CookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.ibatis.session.SqlSessionFactory;
 
 public class TestConfig {
 
@@ -13,5 +12,5 @@ public class TestConfig {
     public static String updateUserInfoUrl;
 
     public static DefaultHttpClient client;
-    public CookieStore cookieStore;
+    public static CookieStore cookieStore;
 }

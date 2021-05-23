@@ -2,7 +2,6 @@ package com.testcy.utils;
 
 import com.testcy.bean.InterfaceEnum;
 
-import javax.xml.stream.Location;
 import java.util.Locale;
 import java.util.ResourceBundle;
 

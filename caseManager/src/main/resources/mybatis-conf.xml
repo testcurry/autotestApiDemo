@@ -19,6 +19,7 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="mapper/mysqlMapper.xml"/>
+        <mapper resource="mapper/CaseMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
 </configuration>
